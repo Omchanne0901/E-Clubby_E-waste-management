@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BeejMart</title>
+
+        <script src="https://kit.fontawesome.com/6cc1a5eb9c.js"
+            crossorigin="anonymous"></script>
+
+        <link rel="shortcut icon" href="appLogo.png" type="image/x-icon">
+      
+        <link rel="stylesheet" href="mart.css">
+    </head>
+    <body>
+
+
+        <div id="navBar">
+
+            <h2 id="appName"> E-Clubby</h2>
+
+            <img id="appLogo" src="appLogo.png" alt="">
+
+            <input id="appSearch" placeholder="Search Items 🔍" type="text">
+
+            <i class="fas fa-location-dot"> </i>
+            <p  id="addAdd"><a href="index.html" style="color: aliceblue; text-decoration: none;">E-Clubby </a></p>
+
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-wallet"></i>
+            <i class="fas fa-user"></i>
+
+
+        </div>
+
+        <div id="catDiv">
+            <p id="shopCat">SHOP BY CATEGORY</p>
+
+            <div id="catIcon">
+
+                <img class="catImg" id="f1" src=""
+                    alt="">
+
+
+                <img class="catImg" id="f2" src="/Images/Categories/c2.jpg"
+                    alt="">
+
+                <img class="catImg" id="f3" src="/Images/Categories/c3.jpg"
+                    alt="">
+
+                <img class="catImg" id="f4" src="/Images/Categories/c4.jpg"
+                    alt="">
+
+                <img class="catImg" id="f5" src="/Images/Categories/c5.jpg"
+                    alt="">
+
+
+                <img class="catImg" id="f6" src="/Images/Categories/c6.jpg"
+                    alt="">
+
+                <img class="catImg" id="f7" src="/Images/Categories/c7.jpg"
+                    alt="">
+
+                <img class="catImg" id="f8" src="/Images/Categories/c8.jpg"
+                    alt="">
+
+
+
+            </div>
+
+        </div>
+
+        <p id="fruitsV">Electronics</p>
+
+        <div id="fruitsVeg">
+
+
+
+
+
+
+            <img class="f" src="register.webp" alt=""
+                id="apple1">
+
+            <img class="f" src="ic.png" alt="" id="ban1" style="">
+
+            <img class="f" src="mothoreboard.png" alt=""
+                id="coc1">
+
+
+            <img class="f" src="micro controller.jpeg" alt="" id="cus1">
+            
+            <img class="f" src="dc wire.png" alt=""
+                id="pom1">
+
+
+            <img class="f" src="led.png" alt=""
+                id="pear1">
+
+
+            <img class="f" src="heat sink.jpeg" alt=""
+                id="dg1">
+
+
+        
+
+
+
+        </div>
+
+        <div class="fDetails">
+
+
+            <div id="fDet">
+                <h2 class="fName"> Register</h2>
+                <h3 class="fPrice"> ₹5 / 1 Piece</h3>
+
+                <button onclick="apple()" class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName"> Ic </h2>
+                <h3 class="fPrice"> ₹7 / 1 Piece</h3>
+
+                <button onclick="banana()" class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName"> Mother Board</h2>
+                <h3 class="fPrice"> ₹300 / Piece</h3>
+
+                <button onclick="coc()" class="fBuy">Buy</button>
+            </div>
+            <div id="fDet">
+                <h2 class="fName"> Microcontroller</h2>
+                <h3 class="fPrice"> ₹400 / 1 piece</h3>
+
+                <button onclick="orange()" class="fBuy">Buy</button>
+            </div>
+            <div id="fDet">
+                <h2 class="fName"> wire</h2>
+                <h3 class="fPrice"> ₹180/Kg</h3>
+
+                <button onclick="pom()" class="fBuy">Buy</button>
+            </div>
+
+
+            <div id="fDet">
+                <h2 class="fName"> Led</h2>
+                <h3 class="fPrice"> ₹2 / 1 piece</h3>
+
+                <button onclick="pear()" class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName"> Heat Sink </h2>
+                <h3 class="fPrice"> ₹40/ 1 piece</h3>
+
+                <button onclick="df()" class="fBuy">Buy</button>
+            </div>
+
+
+
+        </div>
+
+        
+        <p id="dairy">Electrical</p>
+
+        <div id="Dairy1">
+
+
+
+
+            <img class="f" src="ac wire.png" alt=""
+                id="apple1">
+
+            <img class="f" src="switch.jpeg" alt="" id="ban1" style="">
+
+            <img class="f" src="fan.jpeg" alt=""
+                id="coc1">
+
+
+            <img class="f" src="motor.jpeg" alt="" id="cus1">
+            
+            <img class="f" src="pin.jpeg" alt=""
+                id="pom1">
+
+
+            <img class="f" src="tape.jpeg" alt=""
+                id="pear1">
+
+
+            <img class="f" src="screw driver.png" alt=""
+                id="dg1">
+
+
+        
+
+
+
+        </div>
+
+        <div class="fDetails">
+
+
+            <div  id="fDet">
+                <h2 class="fName">Wire</h2>
+                <h3 class="fPrice"> ₹250/ 2kg</h3>
+
+                <button onclick="amulL()"  class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName">Switch</h2>
+                <h3 class="fPrice"> ₹120/ 1 piece</h3>
+
+                <button onclick="dahi()" class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName"> Fan</h2>
+                <h3 class="fPrice"> ₹330/</h3>
+
+                <button onclick="but()" class="fBuy">Buy</button>
+            </div>
+            <div id="fDet">
+                <h2 class="fName"> motor</h2>
+                <h3 class="fPrice"> ₹1500</h3>
+
+                <button onclick="cheese()" class="fBuy">Buy</button>
+            </div>
+            <div id="fDet">
+                <h2 class="fName"> pin</h2>
+                <h3 class="fPrice"> ₹18</h3>
+
+                <button onclick="cheeseC()" class="fBuy">Buy</button>
+            </div>
+
+
+            <div id="fDet">
+                <h2 class="fName">  Tape</h2>
+                <h3 class="fPrice"> ₹50/ 4 piece</h3>
+
+                <button onclick="pizz()" class="fBuy">Buy</button>
+            </div>
+
+            <div id="fDet">
+                <h2 class="fName"> Screw Driver </h2>
+                <h3 class="fPrice"> ₹14 / 1 piece</h3>
+
+                <button onclick="paneer()" class="fBuy">Buy</button>
+            </div>
+
+
+
+        </div>
+
+        <footer>
+
+
+            <div id="appName1">
+            <h2>E-Clubby Mart</h2>
+            <img id="appL1" src="appLogo.png" alt="">
+
+            <div id="details">
+
+            
+                <i class="fas fa-phone"></i>
+                 <h3 id="contact">8600765187  8625057783 </h3>
+               
+            
+            </div>
+
+        </div>
+
+       
+
+        </footer>
+
+        <div id="buyPage">
+
+<img src="" alt="" id="buyImg">
+<h3 id="itemName">
+</h3>
+
+
+<div id="itemNo">
+
+
+ <i onclick="minus()" class="fas fa-minus"></i>
+ <p id="num">1</p>
+ <i onclick="add()" class="fas fa-plus"></i>
+</div>
+
+<button class="cartAdd">Add to Cart 🛒</button>
+<button onclick="closeBox()" class="closeBox">Close</button>
+
+
+
+
+
+        </div>
+
+
+        <script src="mart.js"></script>
+
+    </body>
+</html>

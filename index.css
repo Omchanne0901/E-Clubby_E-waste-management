@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+
+    background-color: rgb(68, 70, 70);
+
+}
+
+.log{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+.hh{
+    padding-left: 40%;
+    height: 100%;
+}
+
+
+
+
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 0px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+
+}
+.logo{
+    width: 350px;
+    height: 80px;
+    cursor:pointer;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase ;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width:0%;
+    background: #c6330b;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.front{
+    width: 100%;
+    height: 80%;
+    margin-top:4%;
+    align-items: center;
+    display: block;
+    background-image: url(but\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.front h1 {
+    
+    color: #450208;
+    font-size :35px;
+   padding-left: 40%;
+   padding-top: 24%;
+   
+
+ 
+
+}
+.front h5{
+    font-size :12px;;
+    color: #000;
+   padding-left: 40%;
+   padding-right: 20%;
+}
+
+
+
+.but{
+    padding-bottom: 30%;
+    padding-left: 40%;
+}
+.but button {
+    border-radius: 20px;
+    background-color: #4b8509;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .but button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .but button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but button:hover span {
+    padding-right: 25px;
+  }
+  
+  .but button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+.ad{
+    padding-left: 40%;
+}
+.b1{
+    padding-left: 34%;
+
+}
+.b1 h1{
+    padding-top: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    color: #fff;
+    font-weight:bolder;
+    
+
+
+}
+.channle h1{
+
+    background-color: #323131;
+    color: #f7f5f5;
+    padding-top: 4%;
+    padding-left: 38%;
+    
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+body,
+html { overflow-x: hidden; }
+
+.bar {
+  position: absolute;
+  top: 40;
+  left: 0;
+
+  width: 100%;
+  padding: 15px 0;
+
+  background-color: #4b4f51;
+  color: white;
+
+  font-family: Gelasio;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+
+
+.news{
+  padding-top: 2%;
+  padding: 2%;
+  padding-left: 8%;
+}
+.card{
+  width:400px;
+  height:400px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 4%;
+  margin-bottom: 0.2rem;
+  padding-top: 5%;
+  cursor: pointer;
+  max-width: 100px 100px;
+  background-image: url(olympic-flag-thubmnail.webp);
+  
+  border-image-outset: 5%;
+  background-position: center;
+  background-size: cover;
+  padding-left: 10%;
+  text-align: center;
+  color: #f7f5f5;
+  transition: transform .3s;
+
+}
+
+.ytv{
+  margin-left: 13%;
+}
+.vedio{
+ 
+  display: inline-block;
+  
+  
+ 
+}
+
+.card h3{
+    padding-top: 80%;
+    padding-left: 0%;
+   padding-right: 30%;
+}
+
+.card1{
+    background-image: url(map.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card01{
+    background-image: url(repairbg.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card001{
+    background-image: url(news1.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+
+
+
+.card002{
+  margin: 1%;
+  
+    
+}
+
+
+.card2{
+    background-image: url(Steel-Price-Per-Kg-In-India.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card3{
+    background-image: url(news2.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card4{
+    background-image: url(taapma-wants-12-gst-rate-on-plastics-1.jpg);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card5{
+    background-image: url(news3.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card6{
+    background-image: url(plastic\ rate.jpg);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+
+}
+.card:hover{
+  transform: scale(1.1);
+    color:black;
+}
+    
+
+.card3:hover{
+    color:black;
+    
+}
+.card4:hover{
+   
+    color:black;
+}
+.card5:hover{
+    
+    color:black;
+}
+.card6:hover{
+    
+    color:black;
+}
+.foot{
+    background-color: #000;
+    color: #fff;
+}
+.so li{
+    text-decoration:none;
+
+}
+.bbgg{
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 8%;
+   
+
+}
+
+.searchbar input{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 2%;
+    color: white;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+
+}
+.searchbar button{
+    padding: 0 px;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: #0dcbff;
+    color:#022803;
+    padding-top: 3.6%;
+    padding-bottom: 3.6%;
+    padding-right: 1%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+    margin-left: -3.2%;
+
+}
+.searchbar button:hover{
+   background-color: #0bdb38;
+   color: white;
+  transform: scaleX(1.5);
+}
+
+/* 
+education */
+@import "compass/css3";
+
+@import "compass/reset";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  background: #34495e;
+  font-size: 100%;
+  line-height: 1.3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container1 {
+  max-width: 960px;
+  margin: 75px auto;
+  > * + * {
+    margin-top: 25px;
+  }
+}
+
+.blocks {
+  margin-left: -2%;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    content: "";
+    clear: both;
+  }
+}
+
+.blocks > * {
+  float: left;
+  margin-left: 2%;
+}
+
+.blocks_4up > * { width: 23%; }
+
+.cut {
+  overflow: hidden;
+  padding: 0 0 30px;
+  margin-top: 2%;
+}
+
+.cut-bd {
+  padding: 15px 15px 0;
+  position: relative;
+}
+
+.cut-hd {
+  margin: 0 0 5px;
+  padding: 0 0 5px;
+}
+
+.cut-hd_red { border-bottom: 1px solid darken(#e74c3c,5%); }
+.cut-hd_green { border-bottom: 1px solid darken(#1abc9c,5%); }
+
+.cut-bd_red {
+  border-top: 5px solid #f39c12;
+  background: #e74c3c;
+  color: #ecf0f1;
+  text-shadow: 1px 1px rgba(#ffffff,.2);
+  &:before {
+    content: "";
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    background: #e74c3c;
+  }
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: -30px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    border: 15px solid #e74c3c;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+}
+
+.cut-bd_green {
+  border-top: 5px solid #ecf0f1;
+  background: #1abc9c;
+  color: #ecf0f1;
+  text-shadow: 1px 1px rgba(#ffffff,.2);
+  &:before {
+    content: "";
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    background: #1abc9c;
+  }
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: -30px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    border: 15px solid #1abc9c;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+}
+
+.intro {
+  color: #ecf0f1;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px rgba(darken(#2c3e50,5%),1);
+}
+
+.hdg {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+.s0 ul li{
+  display: inline-block;
+}
+
+.subsc input{
+
+  padding: 2%;
+  color: #0dcbff;
+  background-color: #ecf0f1;
+
+}

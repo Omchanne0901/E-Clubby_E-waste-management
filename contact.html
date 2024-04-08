@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- Link to SweetAlert CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+  <link rel="stylesheet" href="contact.css".css">
+  <link rel="stylesheet" href="index.css".css">
+  <style>
+    /* Your CSS styles here */
+  </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <img src="logo.jpg" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="edu.html">    Education</a></li>
+            <li><a href="mart.html">Market</a></li>d
+            <li><a href="req.html">community</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Login/Signup</a></li>
+        
+        
+        </ul>
+        
+>
+    </div>
+
+
+  <section class="contact-page" style="margin-top: 10%;">
+    <div class="contact-form-container">
+      <h2>Contact Us</h2>
+      <form id="contact-form" method="post" action="">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn-submit" value="Send Message">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Link to SweetAlert JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    // Function to handle form submission
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent default form submission
+      // You can add your form validation logic here
+      // For demonstration purposes, let's just show a success message
+      Swal.fire({
+        title: 'Success!',
+        text: 'Your message has been sent successfully.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      });
+      // You can also submit the form using AJAX if needed
+      // Replace this with your AJAX submission code
+      // Example:
+      // $.ajax({
+      //   type: "POST",
+      //   url: "your-backend-script.php",
+      //   data: $(this).serialize(),
+      //   success: function(response) {
+      //     // Handle success response
+      //   },
+      //   error: function(xhr, status, error) {
+      //     // Handle error
+      //   }
+      // });
+    });
+  </script>
+</body>
+
+
+<body>
+  <footer>
+      <div class="foot" style="width: 100%;">
+      <h2 style="padding-left: 45%;">E clubby</h2>
+     <p style="margin-top: 2%; width: 80%; margin-left: 11%;">
+      .....................................................................................................................................................................................................................................................</p>
+     <div class="so" style="padding-left: 15%; margin-top: 2%; text-decoration: none; display: ">
+     <ul style="display: inline-block;">
+      <li>Privecy & Policy </li>
+      <li> Terms $ Conditions </li>
+      <li> About us </li>
+      <li> Contact </li>
+      
+  
+  
+     </ul>
+     <ul style="display: inline-block; margin-left: 25%;">
+      <li>Home </li>
+      <li> Education </li>
+      <li> Market </li>
+      <li> Contact </li>
+      
+  
+  
+     </ul>
+     <div class="subsc" style="margin-top: -5%; margin-left: 50%; ">
+     <h1> Subscribe To Get Notifications</h1>
+     <input type="email"  placeholder="example@gmail.com">
+     </div>
+
+
+     </div>
+
+     <p style="margin-left: 70%; padding-bottom: 4%;padding-top: 2%;"> Copyright 2024 @Aman Naurangabadi , @Gautam Patil</p>
+  
+     </div>
+
+
+     
+  </footer>
+</body>
+</html>
